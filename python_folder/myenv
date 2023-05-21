@@ -1,0 +1,3 @@
+subprocess.run(["pip", "install", "numpy"], cwd=python_folder)
+subprocess.run(["pip", "install", "tensorflow"], cwd=python_folder)
+# Install other dependencies as needed

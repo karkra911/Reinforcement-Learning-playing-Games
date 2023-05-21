@@ -1,0 +1,9 @@
+import subprocess
+import os
+
+# Create a virtual environment
+subprocess.run(["python3", "-m", "venv", "myenv"], cwd=python_folder)
+
+# Activate the virtual environment
+activate_script = os.path.join(python_folder, "myenv", "bin", "activate")
+subprocess.run(["source", activate_script], shell=True)
